@@ -23,8 +23,7 @@ function iLoveTheBeatles(num){
   let newArr = []
   do{
     newArr.push('I love the Beatles!')
-  }while (num < 15){
     num +=1
-  }
+  }while (num < 15)
   return newArr
 }
