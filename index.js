@@ -10,10 +10,12 @@ function theBeatlesPlay(arrMu,arrIns){
 }
 
 function johnLennonFacts(arr){
-  let i = 0
+    let i = 0    
+  let copy = arr.slice(0,arr.length)
+    let newArr = []
+  while (i <= copy.length){
     i +=1
-  let copy = []
-  while (i <= arr.length){
-    copy.push(arr.slice(arr[i], arr[i].length-1) + "!!!")
-  }return copy
+    newArr.push(copy[i]+ "!!!")
+  
+  }return newArr
 }
