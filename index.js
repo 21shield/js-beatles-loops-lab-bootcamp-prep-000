@@ -10,7 +10,7 @@ function theBeatlesPlay(arrMu,arrIns){
 }
 
 function johnLennonFacts(arr){
-    let i = 0
+    let i = -1
   let copy = arr.slice(0,arr.length-1)
     let newArr = []
   while (i <= copy.length -1){
