@@ -11,9 +11,9 @@ function theBeatlesPlay(arrMu,arrIns){
 
 function johnLennonFacts(arr){
     let i = 0
-  let copy = arr.slice(0,arr.length)
+  let copy = arr.slice(0,arr.length-1)
     let newArr = []
-  while (i <= copy.length){
+  while (i <= copy.length -1){
     i +=1
     newArr.push(copy[i]+ "!!!")
 
